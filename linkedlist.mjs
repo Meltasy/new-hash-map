@@ -36,6 +36,7 @@ class LinkedList {
     let current = this.head
     if (current.key === key) {
         this.head = current.next
+        this.total--
         return
     }
     while (current.next !== null) {
@@ -43,6 +44,7 @@ class LinkedList {
       current = current.next
       if (current.key === key) {
         previous.next = current.next
+        this.total--
         return
       }
     }
