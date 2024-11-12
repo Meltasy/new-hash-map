@@ -1,0 +1,72 @@
+import { HashMap } from './hashmap.mjs'
+
+const test = new HashMap
+
+// console.log(test.hash('Fred'))
+// console.log(test.hash('Sarah'))
+// console.log(test.hash('Elena'))
+// console.log(test.hash('Yoshi'))
+// console.log(test.hash('Idris'))
+// console.log(test.hash('Mei Li'))
+// console.log(test.hash('Kamala'))
+// console.log(test.hash('Becca'))
+// console.log(test.hash('Harry'))
+// console.log(test.hash('Donald'))
+// console.log(test.hash('Leon'))
+// console.log(test.hash('Hiroto'))
+// console.log(test.hash('Clement'))
+// console.log(test.hash('Jose'))
+// console.log(test.hash('Lulu'))
+// console.log(test.hash('Shalini'))
+// console.log(test.hash('Ralph'))
+
+console.log(test.set('Fred', 'Engineer'))
+console.log(test.set('Fred', 'Programmer'))
+console.log(test.set('Sarah', 'Project Manager'))
+console.log(test.set('Elena', 'Pilot'))
+console.log(test.set('Yoshi', 'Barber'))
+console.log(test.set('Idris', 'Politician'))
+console.log(test.set('Mei Li', 'Journalist'))
+console.log(test.set('Elena', 'Film Producer'))
+console.log(test.set('Sarah', 'Teacher'))
+console.log(test.set('Kamala', 'Server'))
+console.log(test.set('Becca', 'Professor'))
+console.log(test.set('Harry', 'Doctor'))
+console.log(test.set('Donald', 'Dentist'))
+console.log(test.set('Leon', 'Sailor'))
+console.log(test.set('Hiroto', 'Cleaner'))
+console.log(test.set('Clement', 'CEO'))
+console.log(test.set('Jose', 'President'))
+console.log(test.set('Lulu', 'Manager'))
+console.log(test.set('Shalini', 'Actor'))
+console.log(test.set('Ralph', 'Singer'))
+
+// console.log(test.get('Fred'))
+// console.log(test.get('Hiroto'))
+// console.log(test.get('Shalini'))
+// console.log(test.get('Yoshi'))
+// console.log(test.get('Bina'))
+
+// console.log(test.has('Fred'))
+// console.log(test.has('Hiroto'))
+// console.log(test.has('Shalini'))
+// console.log(test.has('Yoshi'))
+// console.log(test.has('Bina'))
+// console.log(test.has('Alan'))
+
+// console.log(test.remove('Fred'))
+// console.log(test.remove('Hiroto'))
+// console.log(test.remove('Shalini'))
+// console.log(test.remove('Yoshi'))
+// console.log(test.remove('Bina'))
+// console.log(test.remove('Alan'))
+
+// console.log(test.length())
+
+// console.log(test.keys())
+
+// console.log(test.values())
+
+// console.log(test.entries())
+
+console.log(test.bucketsArray)
